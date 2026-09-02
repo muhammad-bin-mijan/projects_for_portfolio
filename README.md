@@ -1,6 +1,19 @@
 # 📊 Data Analysis & Machine Learning Foundations Portfolio
 
-Welcome to my portfolio repository. This repository focuses on building strong foundations in data cleaning, preprocessing, and exploratory data analysis using Python.Then on that data I will train a  machine learning model ,so that  it can give predictions on unseen data.
+Welcome to my portfolio repository. This repository focuses on building strong foundations in data cleaning, preprocessing, and exploratory data analysis using Python. Then on that data I will train a machine learning model, so that it can give predictions on unseen data.
+
+---
+
+## 🎯 Project Overview
+
+This is a **professional machine learning portfolio** analyzing **4 different datasets**:
+
+| Dataset | Rows | Columns | Task | Model |
+|---------|------|---------|------|-------|
+| **Diabetes Risk** | 50,000 | 30+ | Multi-class Classification | Random Forest, Logistic Regression |
+| **Telco Churn** | 7,043 | 21 | Binary Classification | Multiple Models Compared |
+| **Titanic** | 891 | 12 | Binary Classification | EDA + Predictive Analysis |
+| **Student Performance** | 5,000 | 23 | Classification | ML Models |
 
 ---
 

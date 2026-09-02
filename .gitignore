@@ -1,0 +1,58 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+__pycache__/
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.jupyterlab/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (keep repository clean)
+*.csv
+*.json
+!Datasets/**/*.csv
+!Datasets/**/*.json
+
+# Models (don't commit trained models)
+models/*.pkl
+models/*.joblib
+
+# Results and outputs
+*.log
+results/
+output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.tmp
+temp/
+.cache/

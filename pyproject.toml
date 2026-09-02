@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
+
+[project]
+name = "portfolio-ml-analysis"
+version = "1.0.0"
+description = "Multi-dataset Machine Learning analysis portfolio covering Diabetes Risk Prediction, Telco Customer Churn, Titanic Survival, and Student Performance datasets"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+keywords = ["machine-learning", "data-analysis", "classification", "sklearn"]
+
+dependencies = [
+    "pandas>=1.3.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.4.0",
+    "seaborn>=0.11.0",
+    "jupyter>=1.0.0",
+    "notebook>=6.4.0",
+    "ipykernel>=6.5.0",
+    "joblib>=1.1.0",
+    "plotly>=5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "pylint>=2.10",
+    "flake8>=3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/portfolio-ml-analysis"
+Repository = "https://github.com/yourusername/portfolio-ml-analysis.git"
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39']
+
+[tool.pylint]
+max-line-length = 100
