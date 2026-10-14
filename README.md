@@ -1,86 +1,40 @@
-# 📊 Data Analysis & Machine Learning Foundations Portfolio
+# AI & Machine Learning Engineering Portfolio
 
-Welcome to my portfolio repository. This repository focuses on building strong foundations in data cleaning, preprocessing, and exploratory data analysis using Python. Then on that data I will train a machine learning model, so that it can give predictions on unseen data.
+Welcome to my portfolio repository. This space contains end-to-end projects, deep learning models, data pipelines, and computer vision workflows built using **Python, PyTorch, TensorFlow, OpenCV, Scikit-Learn, Pandas, and NumPy**.
 
----
-
-## 🎯 Project Overview
-
-This is a **professional machine learning portfolio** analyzing **4 different datasets**:
-
-| Dataset | Rows | Columns | Task | Model |
-|---------|------|---------|------|-------|
-| **Diabetes Risk** | 50,000 | 30+ | Multi-class Classification | Random Forest, Logistic Regression |
-| **Telco Churn** | 7,043 | 21 | Binary Classification | Multiple Models Compared |
-| **Titanic** | 891 | 12 | Binary Classification | EDA + Predictive Analysis |
-| **Student Performance** | 5,000 | 23 | Classification | ML Models |
+Whether evaluated for **Junior AI Engineer** or **Junior Machine Learning Engineer** roles, this repository highlights my practical implementation of core software engineering, classical ML algorithms, and modern deep learning techniques.
 
 ---
 
-## 👨‍💻 About Me
+## 🛠️ Tech Stack & Core Competencies
 
-I am a CSE student at BRAC University currently focusing on:
-
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* Learning Machine Learning fundamentals
-
----
-
-## 🧠 Skills
-
-* Python (Pandas, NumPy, Scikit-learn)
-* Data Cleaning & Wrangling
-* Basic Data Visualization (Matplotlib, Seaborn)
-* Handling real-world messy datasets
+- **Languages:** Python (Object-Oriented Programming), SQL
+- **Deep Learning & Computer Vision:** PyTorch, TensorFlow, OpenCV
+- **Data Engineering & Classical ML:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- **Version Control & Tools:** Git, GitHub, Jupyter Notebooks, Google Colab
 
 ---
 
-## 📁 Projects
+## 📂 Repository Highlights & Focus Areas
 
-### 🧹 Data Cleaning Project
+### 1. Computer Vision & Deep Learning (AI Engineering)
+* Neural network architectures (MLPs, CNNs) implemented using **PyTorch** and **TensorFlow**.
+* Image processing, transformations, and object detection workflows using **OpenCV**.
 
-* Handling missing values
-* Removing duplicates
-* Data transformation
+### 2. Machine Learning & Data Pipelines
+* End-to-end data preprocessing, missing value imputation, and feature encoding pipelines using **Pandas** and **Scikit-Learn**.
+* Supervised learning classification and regression models with performance evaluation metrics (Precision, Recall, F1-Score, ROC-AUC).
 
----
-
-### 📊 Exploratory Data Analysis (EDA)
-
-* Understanding data patterns
-* Visualization using plots
-* Extracting meaningful insights
+### 3. Software Engineering & OOP Practice
+* Modular, object-oriented Python scripts (`.py`) for reproducible data manipulation and model training routines.
 
 ---
 
-### 🤖 Machine Learning (Beginner Level)
+## 🚀 Environment & Setup
 
-* Basic model building
-* Understanding model behavior
+Clone the repository and install dependencies:
 
----
-
-## 🛠 Tools & Technologies
-
-* Python
-* Jupyter Notebook
-* Git & GitHub
-
----
-
-## 📌 Current Goal
-
-To strengthen my skills in data preprocessing and analysis, and gradually move toward more advanced data science concepts.
-
----
-
-## 📬 Contact
-
-* GitHub: https://github.com/muhammad-bin-mijan/muhammad_bin_mijan.github.io.git
-
----
-
-<p align="center">
-  ⭐ If you find this repository useful, consider giving it a star!
-</p>
+```bash
+git clone [https://github.com/muhammad-bin-mijan/projects_for_portfolio.git](https://github.com/muhammad-bin-mijan/projects_for_portfolio.git)
+cd projects_for_portfolio
+pip install -r requirements.txt
